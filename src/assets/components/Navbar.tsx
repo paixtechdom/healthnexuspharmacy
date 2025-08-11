@@ -12,7 +12,7 @@ const Navbar = () => {
         <header className={`fixed center w-full left-0 top-0 h-[10vh] md:h-[12vh] z-50 transition-all duration-1000 bg-white border-b border-gray-100`}>
             <div className="flex items-center justify-between w-11/12 lg:w-10/12">
 
-                <Link to={'/'} className='w-4/12 flex flex-col items-start text-primary '>
+                <Link to={'/'} className='w-4/12 flex flex-col items-start text-primary scale-[0.8]'>
                     <h3 className="text-3xl font-bold">
                         HealthNexus
                     </h3>
