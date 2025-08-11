@@ -51,16 +51,14 @@ const Footer = () => {
                 </div>
 
                 <div className="justify-between items-center flex flex-col lg:flex-row gap-3">
-                    <p className="w-full lg:w-fit">Copyright © HealthNexus Pharmacy and Stores Ltd</p>
+                    <p className="w-full lg:w-fit text-center lg:text-left">Copyright © HealthNexus Pharmacy and Stores Ltd</p>
 
-                    <p className="w-full lg:w-fit">All Rights Reserved | <span className="underline">Terms and Conditions</span> | <span className="underline">Privacy Policy</span> </p>
+                    <p className="w-full lg:w-fit text-center lg:text-right">All Rights Reserved | <span className="underline">Terms and Conditions</span> | <span className="underline">Privacy Policy</span> </p>
 
 
 
                 </div>
-
-
-                <p className="w-full text-center text-sm">Designed by <a href="tel:+2348112159799">Paix Techdom</a></p>
+                {/* <p className="w-full text-center text-sm">Designed by <a href="tel:+2348112159799">Paix Techdom</a></p> */}
             </div>
         </footer>
     )

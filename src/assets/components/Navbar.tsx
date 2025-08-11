@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { Button } from "./Button"
 
 
 
@@ -20,8 +21,9 @@ const Navbar = () => {
 
 
                 <nav className="flex items-center text-primary gap-4 w-9/12 justify-end">
-                    <Link to="/Contact" className="p-2 px-5">Contact Us</Link>
-                    {/* <Button text="Download App" className="w-fit border border-primary"/> */}
+                    <Link to="/Contact" className="">
+                        <Button text="Contact Us" className="w-fit border bg-secondary text-primary"/>
+                    </Link>
                 </nav>
        
             </div>
