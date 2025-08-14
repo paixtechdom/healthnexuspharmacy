@@ -61,7 +61,7 @@ export const Dream = () => {
                         className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition"
                     >
                         <div className="flex justify-center mb-4">{item.icon}</div>
-                        <h3 className="text-xl font-semibold mb-2 text-center">
+                        <h3 className="text-xl font-semibold mb-2 text-center text-primary">
                         {item.title}
                         </h3>
                         <p className="text-gray-600 text-center">{item.desc}</p>
