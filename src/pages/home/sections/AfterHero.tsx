@@ -49,7 +49,7 @@ export const AfterHero : React.FC =  () => {
                             {
                                 values.map((v, i) =>(
                                 <div key={i} className="p-3 py-8 bg-white rounded-xl shadow-md hover:shadow-lg transition">
-                                    <div className="text-green-600 text-5xl mb-4 mx-auto w-fit">
+                                    <div className="text-green-600 text-4xl mb-4 mx-auto w-fit">
                                         {v.icon}
                                     </div>
                                     <h3 className="text-xl font-semibold mb-2 text-primary">{v.title}</h3>
