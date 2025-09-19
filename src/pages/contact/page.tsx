@@ -4,7 +4,7 @@ import { ContactInfoInterface, } from "../../assets/Interfaces"
 const contactInfo = [
     {
         icon: <BsTelephoneOutboundFill />,
-        contact: "+234 704 481 1643",
+        contact: "+234 810 372 1606",
     },
     {
         icon: <BsEnvelopeFill />,
@@ -56,7 +56,6 @@ const ContactPage = () => {
                     </div>
 
 
-    
                     
                 </div>
             </div>

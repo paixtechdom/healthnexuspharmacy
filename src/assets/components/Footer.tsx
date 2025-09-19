@@ -7,7 +7,7 @@ import { ContactInfoInterface } from "../Interfaces"
 export const ContactInfo = [
     {
         icon: <BsTelephoneOutboundFill />,
-        contact: "+234 704 481 1643",
+        contact: "+234 810 372 1606",
     },
     {
         icon: <BsEnvelopeFill />,
