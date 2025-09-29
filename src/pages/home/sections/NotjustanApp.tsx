@@ -10,15 +10,15 @@ export const NotjustanApp:React.FC = () => {
         <>
             <section className="center w-full relative overflow-hidden">
                 <>
-                    <img src={blur} alt="" className="absolute z-[-1] top-0"/>
-                    <img src={blur} alt="" className="absolute z-[-1] -botom-9 -right-36 rotate-180"/>
+                    <img src={blur} alt="A blur image for the background" className="absolute z-[-1] top-0"/>
+                    <img src={blur} alt="A blur image for the background" className="absolute z-[-1] -botom-9 -right-36 rotate-180"/>
                 </>
 
                 <div className="w-11/12 lg:w-10/12 center flex-col lg:flex-row relative gap-[10vh] lg:gap-[25px] my-[10vh]">
 
                     <div className="flex items-center justify-center lg:justify-between relative w-full">
                         <div className="w-10/12 relative">
-                            <img src={img} alt="Resida is not just an app" className="w-full"/>
+                            <img src={img} alt="HealthNexus Pharmacy" className="w-full"/>
 
 
                         </div>
@@ -45,10 +45,9 @@ export const NotjustanApp:React.FC = () => {
             <section className="center w-full my-[10vh]">
               <div className="flex flex-col lg:flex-row w-11/12 lg:w-10/12 gap-8 lg:gap-[25px]">
                 <div className="flex flex-col lg:flex-row justify-between lg:justify-start lg:items-stretch gap-3 w-full lg:h-[18vh] relative">
-                    <img src="" alt="" className="absolute"/>
-                    <img src={experience1} alt="Eperience Image 1" className="h-full" />
-                    <img src={experience2} alt="Eperience Image 2" className="h -full"/>
-                    <img src={experience3} alt="Eperience Image 3" className="h -full" />
+                    <img src={experience1} alt="Pharmacy Image 1" className="h-full" />
+                    <img src={experience2} alt="Pharmacy Image 2" className="h -full"/>
+                    <img src={experience3} alt="Pharmacy Image 3" className="h -full" />
                 </div>
 
 

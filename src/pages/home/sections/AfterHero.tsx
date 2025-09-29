@@ -32,7 +32,7 @@ export const AfterHero : React.FC =  () => {
     return(
         <>
             <section className="w-full center py-[5vh] overflow-hidden relative bg-gray-50">
-                <img src={blur} alt="" className="absolute z-[-1] bottom-0 -right- 36 rotate-180 scale-110"/>
+                <img src={blur} alt="Bur image for bg" className="absolute z-[-1] bottom-0 -right- 36 rotate-180 scale-110"/>
 
 
                 <section className="w-11/12 lg:w-10/12 py-12 ">

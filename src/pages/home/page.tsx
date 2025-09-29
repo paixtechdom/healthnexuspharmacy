@@ -14,8 +14,6 @@ const HomePage: React.FC = () => {
             <Discover />
             <Dream />
             <NotjustanApp />
-            {/* <Neighbourhood /> 
-            */}
             <Download />
         </main>
     )

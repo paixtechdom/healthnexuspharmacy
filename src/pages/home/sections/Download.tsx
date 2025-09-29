@@ -15,7 +15,7 @@ export const Download = () => {
 
         <div className="flex items-center justify-center lg:justify-between relative w-full">
             <div className="w-10/12 relative">
-                <img src={pharmacy} className="w-fit" alt="Mockup of our app on a mobile device" />
+                <img src={pharmacy} className="w-fit" alt="Health Nexus Pharmacy" />
             </div>
         </div>
 

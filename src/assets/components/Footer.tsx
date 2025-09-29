@@ -50,7 +50,7 @@ const Footer = () => {
                     }
                 </div>
 
-                <div className="justify-between items-center flex flex-col lg:flex-row gap-3">
+                <div className="justify-between items-center flex flex-col lg:flex-row gap-3 mt-9">
                     <p className="w-full lg:w-fit text-center lg:text-left">Copyright © HealthNexus Pharmacy and Stores Ltd</p>
 
                     <p className="w-full lg:w-fit text-center lg:text-right">All Rights Reserved | <span className="underline">Terms and Conditions</span> | <span className="underline">Privacy Policy</span> </p>
